@@ -1,0 +1,12 @@
+---
+env:
+  node: true
+rules:
+	# crystallized https://docs.npmjs.com/misc/coding-style
+	indent: [2, 2]
+  curly: [2, "multi-line"]
+  func-names: 2
+  max-len: [2, 80, 2]
+  brace-style: 2
+  semi: [2, "never"]
+  comma-style: [2, "first"]

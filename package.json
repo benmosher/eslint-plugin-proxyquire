@@ -1,0 +1,28 @@
+{
+  "name": "eslint-plugin-proxyquire",
+  "version": "0.0.0",
+  "description": "Mock with sanity.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive tests/lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/benmosher/eslint-plugin-proxyquire"
+  },
+  "keywords": [
+    "eslint",
+    "proxyquire",
+    "eslintplugin"
+  ],
+  "author": "Ben Mosher (me@benmosher.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/benmosher/eslint-plugin-proxyquire/issues"
+  },
+  "devDependencies": {
+    "eslint": "^0.18.0",
+    "eslint-tester": "^0.6.0",
+    "mocha": "^2.2.4"
+  }
+}
